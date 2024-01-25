@@ -1,3 +1,10 @@
+@import "@radix-ui/themes/styles.css";
+
+/* Overriding radix ui */
+.radix-themes {
+  --default-font-family: var(--font-inter);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
